@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora</title>
+    <link rel="stylesheet" href="../css/explorar.css">
+</head>
+
+<header class="fijo">
+    <!--         <div class="contenedor"> -->
+    <div class="logo">
+        <p>Crecemos Juntos</p>
+    </div>
+    <div class="hamburguesa">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./explorar.html">Explora</a></li>
+            <li><a href="./producto.html">Producto</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--         <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="ri-align-justify"></i>
+    </label> -->
+    <!--         </div> -->
+</header>
+
+<main>
+    <section class="descrip">
+        <div>
+            <img src="../media/ods1gif.gif" alt="imagen">
+        </div>
+        <div class="texto">
+            <h2>Descripcion de la organizacion</h2>
+            <p>Este ods busca poner fin a la pobreza en todas sus formas en todo el mundo.Reconoce que la pobreza no es
+                solo una falta de ingreso , sino tambien
+                la falta de accso a servicios basicos como , educacion , salud , agua potable y viviendas digna ya que
+                la preocupacion de la poblacion mundial que vive en la pobreza extrema ha disminuido en los ultimos años
+                el 8,6 % en 2018 a comparacion con el 36 % en el año 1990 si bien se ha conseguio avanze,aun queda mucho
+                por hacer , principalmente porque el ritmo del cambio esta disminuyendo.!
+            </p>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2>Estadisticas de sobre la pobreza en el mundo</h2>
+        <div class="alineacion">
+            <div class="texto-estadisticas">
+                <p>Entre 2019 y 2024, la economía global experimentó una caída significativa en 2020 debido a la
+                    pandemia de COVID-19, seguida de una recuperación gradual en los años siguientes. La población
+                    mundial creció, alcanzando aproximadamente 8 mil millones en 2022, aunque la tasa de crecimiento ha
+                    disminuido.
+
+                    La esperanza de vida sufrió un revés en 2020, pero ha comenzado a recuperarse gracias a los avances
+                    en salud. Sin embargo, las emisiones de gases de efecto invernadero han continuado en aumento,
+                    resaltando la necesidad urgente de adoptar políticas sostenibles para combatir el cambio climático.
+                </p>
+            </div>
+            <div class="chart">
+                <canvas id="barchart" width="450" height="450"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- RETOS EN UN CARRUSEL -->
+    <p class="ti">Retos y desafios</p>
+    <div class="carrusel">
+        <div class="slider">
+            <!-- retos a nivel local -->
+            <div class="item centrar">
+                <h2>Retos y Desafios</h2>
+            </div>
+
+            <div class="item centrar">
+                <h2>Retos</h2>
+            </div>
+
+            <!-- reto1 -->
+            <div class="item cento">
+                <h2>Desigualdad regional</h2>
+                <p>La pobreza es más alta en zonas rurales, especialmente en la sierra y selva, con acceso limitado
+                    a servicios básicos como agua potable, educación y salud.</p>
+            </div>
+
+            <!-- reto2 -->
+            <div class="item cento">
+                <h2>Economía informal</h2>
+                <p>Gran parte de la población trabaja sin protección social, lo que los deja vulnerables ante crisis
+                    económicas o de salud.</p>
+            </div>
+
+            <!-- reto3 -->
+            <div class="item cento">
+                <h2>Pobreza multidimensional</h1>
+                    <p>Además de bajos ingresos, muchas personas enfrentan carencias en salud, educación y vivienda.
+                    </p>
+            </div>
+
+            <!-- desafios nivel local -->
+            <div class="item centrar">
+                <h2>Desafios</h2>
+            </div>
+
+            <!-- desafio1 -->
+            <div class="item cento">
+                <h2>Mejorar políticas de inclusión social</h2>
+                <p>Ampliar y fortalecer programas como Juntos para reducir la pobreza en zonas vulnerables.</p>
+            </div>
+
+            <!-- desafio2 -->
+            <div class="item cento">
+                <h2>Desarrollo de infraestructura rural</h2>
+                <p>Mejorar carreteras, servicios básicos y acceso a mercados en áreas rurales.</p>
+            </div>
+
+            <!-- desafio3 -->
+            <div class="item cento">
+                <h2>Formalización del empleo</h2>
+                <p>Incentivar la formalización de pequeñas empresas y trabajadores informales para brindar mayor
+                    seguridad social.</p>
+            </div>
+
+            <!-- desafio4 -->
+            <div class="item cento">
+                <h2>Desarrollo agrícola sostenible</h2>
+                <p>Aumentar la productividad agrícola y promover acceso a mercados para mejorar ingresos rurales.
+                </p>
+            </div>
+
+            <!-- desafio5 -->
+            <div class="item cento">
+                <h2>Resiliencia climática</h2>
+                <p>Implementar planes para mitigar el impacto del cambio climático en las zonas rurales.</p>
+            </div>
+            <button id="next"> > </button>
+            <button id="prev">
+                < </button>
+        </div>
+    </div>
+
+    <!-- liena de tiempo -->
+    <div class="main">
+        <h3 class="heading">Lin ea de Tiempo</h3>
+        <div class="container1">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h2>Año 1</h2>
+                        <p>Descripción del evento que ocurrió en el año 1.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h2>Año 2</h2>
+                        <p>Descripción del evento que ocurrió en el año 2.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h2>Año 3</h2>
+                        <p>Descripción del evento que ocurrió en el año 3.</p>
+                    </div>
+                </div>
+                <!-- Agrega más items según sea necesario -->
+            </div>
+        </div>
+    </div>
+
+    <!-- proyecto exitoso de nacional y mundial  -->
+
+    <div class="proye">
+        <p class="exitos">Proyecto exitoso nacional y mundial</p>
+        <div class="proyectos">
+            <div class="mundial">
+                <p class="ti-mun">Acompartir (España)</p>
+                <p>Plataforma que distribuye excedentes de productos no alimentarios a personas en riesgo de exclusión
+                    social. Hasta ahora, ha ayudado a más de 1.9 millones de personas, reduciendo la pobreza a través de
+                    la
+                    redistribución de recursos esenciales​</p>
+                <form action="https://www.acompartir.org/">
+                    <button>mas informacion</button>
+                </form>
+            </div>
+            <div class="nacional">
+                <p class="ti-nac">Programa Nacional de Alimentación Escolar Qali Warma</p>
+                <p>Este programa del Ministerio de Educación de Perú proporciona alimentación escolar a niños y
+                    adolescentes de colegios públicos. Se enfoca en garantizar que los estudiantes reciban alimentos
+                    nutritivos, ayudando a reducir la desnutrición y mejorar el rendimiento académico, lo que contribuye
+                    a romper el ciclo de la pobreza.​</p>
+                <form action="https://www.gob.pe/591-programa-de-alimentacion-escolar-qali-warma">
+                    <button>mas informacion</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acciones individuales y colectivas -->
+
+</main>
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+    </div>
+
+
+    <div class="zoom">
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+        </ul>
+
+    </div>
+
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Team</a></li>
+    </ul>
+
+    <p>© Code with RizZ | All right reserved</p>
+
+
+</footer>
+    <!-- iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- libreria para el grafico de estadisticas -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<!-- codigo de la grafica estadistica -->
+<script src="../js/explorar.js"></script>
+</body>
+
+</html>
